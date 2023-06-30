@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin:0;
+    height:100vh;
+    background-color: rgba(160, 116, 27, 0.783);
+    text-align: center;
+}
+
+.head{
+    font-size:4rem;
+    color:rgb(26, 238, 199);
+    letter-spacing: 4px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    animation-name:scale;
+    animation-duration:3s;
+    
+}
+@keyframes scale {
+    0%{
+        transform: scale(0.1);
+    }
+    100%{
+        transform: scale(1);
+    }
+    
+}
+.timer{
+    font-size: 100px;
+}
+.btn input{
+    font-size: 1.6rem;
+    border: none;
+    
+}
+.btn button{
+    margin:10px;
+    font-size: 2rem;
+}
+.pause{
+background-color: yellow;
+}
+.start{
+background-color: green;
+}
+button:hover{
+    background-color: rgba(98, 96, 96, 0.418);
+}
+
